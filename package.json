@@ -1,37 +1,36 @@
 {
-    "name": "pepxml-parser",
-    "version": "0.0.1",
-    "description": "A parser for pepXML files",
-    "main": "index.js",
-    "scripts": {
-      "test": "node ./test/test-index.js | tap-spec"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/emptyport/pepxml-parser.git"
-    },
-    "keywords": [
-      "chemistry",
-      "peptide",
-      "protein",
-      "proteomics",
-      "mass spec",
-      "pepxml",
-      "parser"
-    ],
-    "author": "Michael Porter <michaelporter.chemistry@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/emptyport/pepxml-parser/issues"
-    },
-    "homepage": "https://github.com/emptyport/pepxml-parser#readme",
-    "devDependencies": {
-      "tap-spec": "^5.0.0",
-      "tape": "^4.9.1"
-    },
-    "dependencies": {
-      "peptide-spectrum-match": "^1.0.0",
-      "xml-js": "^1.6.7"
-    }
+  "name": "pepxml-parser",
+  "version": "0.0.1",
+  "description": "A parser for pepXML files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test-index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptyport/pepxml-parser.git"
+  },
+  "keywords": [
+    "chemistry",
+    "peptide",
+    "protein",
+    "proteomics",
+    "mass spec",
+    "pepxml",
+    "parser"
+  ],
+  "author": "Michael Porter <michaelporter.chemistry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emptyport/pepxml-parser/issues"
+  },
+  "homepage": "https://github.com/emptyport/pepxml-parser#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "peptide-spectrum-match": "^1.0.0",
+    "xml-js": "^1.6.7"
   }
-  
+}

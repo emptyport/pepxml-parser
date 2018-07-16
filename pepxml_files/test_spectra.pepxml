@@ -1,0 +1,804 @@
+<?xml version="1.0"?>
+<!DOCTYPE msms_pipeline_analysis PUBLIC "-//NCBI//pepXML/EN" "pepXML.dtd">
+<msms_pipeline_analysis date="2018-07-09T16:25:27" summary_xml="/home/mike/Downloads/tandem-linux-17-02-01-4/searchgui_out/.SearchGUI_temp/test_spectra.pepxml">
+  <msms_run_summary base_name="/home/mike/Downloads/tandem-linux-17-02-01-4/searchgui_out/.SearchGUI_temp/test_spectra.pepxml" raw_data_type="raw" raw_data=".mzXML">
+    <sample_enzyme name="Trypsin">
+      <specificity sense="C" cut="KR" no_cut="P"/>
+    </sample_enzyme>
+    <search_summary base_name="/home/mike/Downloads/tandem-linux-17-02-01-4/searchgui_out/.SearchGUI_temp/test_spectra.pepxml" search_engine="OMSSA" precursor_mass_type="monoisotopic" fragment_mass_type="monoisotopic" out_data_type="n/a" out_data="n/a" search_id="1">
+      <search_database local_path="yeast_uniprot-proteome%3AUP000002311_concatenated_target_decoy.fasta" size_in_db_entries="12098" type="AA"/>
+      <enzymatic_search_constraint enzyme="Trypsin" max_num_internal_cleavages="3" min_number_termini="2"/>
+      <aminoacid_modification aminoacid="C" massdiff="57.021000000000001" mass="160.03019" variable="N" description="Carbamidomethylation of C"/>
+      <aminoacid_modification aminoacid="M" massdiff="15.995000000000001" mass="147.03549" variable="Y" description="Oxidation of M"/>
+      <aminoacid_modification aminoacid="K" massdiff="42.011000000000003" mass="170.10596" variable="Y" description="Acetylation of K"/>
+      <terminal_modification terminus="n" massdiff="42.011000000000003" mass="43.01894" variable="Y" protein_terminus="Y" description="Acetylation of protein N-term"/>
+    </search_summary>
+    <spectrum_query spectrum="Label: W620, Spot_Id: 159873, Peak_List_Id: 184516, MSMS Job_Run_Id: 14047, Comment: .65.65.4" start_scan="65" end_scan="65" precursor_neutral_mass="3481.01000976562" assumed_charge="4" index="1">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FHSIMLFWLKPSRQIRPPIYSLKQARLR" peptide_prev_aa="K" peptide_next_aa="K" protein="BL_ORD_ID:6750" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="54" calc_neutral_pep_mass="3480.97998046875" massdiff="0.030029296875" is_rejected="0" protein_descr="sp|P40989|FKS2_YEAST 1,3-beta-glucan synthase component GSC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GSC2 PE=1 SV=2">
+          <search_score name="pvalue" value="0.366453283352216"/>
+          <search_score name="expect" value="80.253269054135373"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1103, Spot_Id: 159916, Peak_List_Id: 184887, MSMS Job_Run_Id: 14047, Comment: .84.84.3" start_scan="84" end_scan="84" precursor_neutral_mass="2704.56494140625" assumed_charge="3" index="2">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AIYMVITALYWAVLLKAAIVGRNR" peptide_prev_aa="K" peptide_next_aa="S" protein="BL_ORD_ID:9293" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="46" calc_neutral_pep_mass="2704.55810546875" massdiff="0.0068359375" is_rejected="0" protein_descr="sp|P53089_REVERSED|YGV4_YEAST Uncharacterized protein YGL204C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YGL204C PE=4 SV=1-REVERSED">
+          <search_score name="pvalue" value="0.114928002081007"/>
+          <search_score name="expect" value="67.922449229875028"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1071, Spot_Id: 159052, Peak_List_Id: 184857, MSMS Job_Run_Id: 14047, Comment: .125.125.3" start_scan="125" end_scan="125" precursor_neutral_mass="2950.4150390625" assumed_charge="3" index="3">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MVEALNFNTKNAKSVADDIEEKSIDK" peptide_prev_aa="K" peptide_next_aa="M" protein="BL_ORD_ID:7607" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="50" calc_neutral_pep_mass="2950.4599609375" massdiff="-0.044921875" is_rejected="0" protein_descr="sp|Q02792_REVERSED|XRN2_YEAST 5&apos;-3&apos; exoribonuclease 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RAT1 PE=1 SV=3-REVERSED">
+          <modification_info modified_peptide="MVEALNFNTKNAKSVADDIEEKSIDK[170]">
+            <mod_aminoacid_mass position="26" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.040717416522413"/>
+          <search_score name="expect" value="91.614187175430274"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W652, Spot_Id: 159009, Peak_List_Id: 184542, MSMS Job_Run_Id: 14047, Comment: .186.186.4" start_scan="186" end_scan="186" precursor_neutral_mass="4429.43408203125" assumed_charge="4" index="4">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EVPKELTEDLKLNDEEIKKPTDGKPVVVAYDELVPLIK" peptide_prev_aa="K" peptide_next_aa="I" protein="BL_ORD_ID:10076" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="74" calc_neutral_pep_mass="4429.3798828125" massdiff="0.05419921875" is_rejected="0" protein_descr="sp|Q03690|CLU_YEAST Clustered mitochondria protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CLU1 PE=1 SV=1">
+          <modification_info modified_peptide="EVPKELTEDLK[170]LNDEEIK[170]KPTDGKPVVVAYDELVPLIK[170]">
+            <mod_aminoacid_mass position="11" mass="170.10596"/>
+            <mod_aminoacid_mass position="18" mass="170.10596"/>
+            <mod_aminoacid_mass position="38" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.172104623148232"/>
+          <search_score name="expect" value="79.168126648186572"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="EVPKELTEDLKLNDEEIKKPTDGKPVVVAYDELVPLIK" peptide_prev_aa="K" peptide_next_aa="I" protein="BL_ORD_ID:10076" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="74" calc_neutral_pep_mass="4429.3798828125" massdiff="0.05419921875" is_rejected="0" protein_descr="sp|Q03690|CLU_YEAST Clustered mitochondria protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CLU1 PE=1 SV=1">
+          <modification_info modified_peptide="EVPKELTEDLK[170]LNDEEIKK[170]PTDGKPVVVAYDELVPLIK[170]">
+            <mod_aminoacid_mass position="11" mass="170.10596"/>
+            <mod_aminoacid_mass position="19" mass="170.10596"/>
+            <mod_aminoacid_mass position="38" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.172104623148232"/>
+          <search_score name="expect" value="79.168126648186572"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1037, Spot_Id: 158134, Peak_List_Id: 184829, MSMS Job_Run_Id: 14047, Comment: .223.223.2" start_scan="223" end_scan="223" precursor_neutral_mass="2344.2900390625" assumed_charge="2" index="5">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GQLVELYVPRKCSATNRIIK" peptide_prev_aa="K" peptide_next_aa="A" protein="BL_ORD_ID:696" num_tot_proteins="2" num_matched_ions="6" tot_num_ions="38" calc_neutral_pep_mass="2344.30395507812" massdiff="-0.013916015625" is_rejected="0" protein_descr="sp|Q3E754|RS21B_YEAST 40S ribosomal protein S21-B OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPS21B PE=1 SV=1">
+          <alternative_protein protein="BL_ORD_ID:714" protein_descr="sp|P0C0V8|RS21A_YEAST 40S ribosomal protein S21-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPS21A PE=1 SV=1"/>
+          <modification_info modified_peptide="GQLVELYVPRKCSATNRIIK">
+            <mod_aminoacid_mass position="12" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.010770430592704"/>
+          <search_score name="expect" value="16.575692682171407"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W689, Spot_Id: 158024, Peak_List_Id: 184568, MSMS Job_Run_Id: 14047, Comment: .252.252.4" start_scan="252" end_scan="252" precursor_neutral_mass="4858.04296875" assumed_charge="4" index="6">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ETANSDSNASNMSSDMKPLYYLDGEFNPDFDQMSPEKKCRR" peptide_prev_aa="K" peptide_next_aa="Y" protein="BL_ORD_ID:9423" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="80" calc_neutral_pep_mass="4858.0888671875" massdiff="-0.0458984375" is_rejected="0" protein_descr="sp|P50078_REVERSED|TOS2_YEAST Protein TOS2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TOS2 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="ETANSDSNASNMSSDMK[170]PLYYLDGEFNPDFDQMSPEK[170]KCRR">
+            <mod_aminoacid_mass position="17" mass="170.10596"/>
+            <mod_aminoacid_mass position="37" mass="170.10596"/>
+            <mod_aminoacid_mass position="39" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.113935790679279"/>
+          <search_score name="expect" value="13.444423300154892"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="ETANSDSNASNMSSDMKPLYYLDGEFNPDFDQMSPEKKCRR" peptide_prev_aa="K" peptide_next_aa="Y" protein="BL_ORD_ID:9423" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="80" calc_neutral_pep_mass="4858.0888671875" massdiff="-0.0458984375" is_rejected="0" protein_descr="sp|P50078_REVERSED|TOS2_YEAST Protein TOS2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TOS2 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="ETANSDSNASNMSSDMK[170]PLYYLDGEFNPDFDQMSPEKK[170]CRR">
+            <mod_aminoacid_mass position="17" mass="170.10596"/>
+            <mod_aminoacid_mass position="38" mass="170.10596"/>
+            <mod_aminoacid_mass position="39" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.113935790679279"/>
+          <search_score name="expect" value="13.444423300154892"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1740, Spot_Id: 158543, Peak_List_Id: 185101, MSMS Job_Run_Id: 14047, Comment: .284.284.3" start_scan="284" end_scan="284" precursor_neutral_mass="3756.73901367188" assumed_charge="3" index="7">
+      <search_result>
+        <search_hit hit_rank="1" peptide="QMPNQCMSLFHDIDQANLFQERAAPYANFVK" peptide_prev_aa="K" peptide_next_aa="E" protein="BL_ORD_ID:3495" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="60" calc_neutral_pep_mass="3756.7119140625" massdiff="0.027099609375" is_rejected="0" protein_descr="sp|P07149_REVERSED|FAS1_YEAST Fatty acid synthase subunit beta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=FAS1 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="QM[147]PNQCM[147]SLFHDIDQANLFQERAAPYANFVK[170]">
+            <mod_aminoacid_mass position="2" mass="147.03549"/>
+            <mod_aminoacid_mass position="7" mass="147.03549"/>
+            <mod_aminoacid_mass position="31" mass="170.10596"/>
+            <mod_aminoacid_mass position="6" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.031873379958328"/>
+          <search_score name="expect" value="52.240469751699749"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W904, Spot_Id: 159186, Peak_List_Id: 184746, MSMS Job_Run_Id: 14047, Comment: .293.293.3" start_scan="293" end_scan="293" precursor_neutral_mass="3801.63696289062" assumed_charge="3" index="8">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VPKFPGHLHTDCYCPWITYDLDFAAVDPYGTM" peptide_prev_aa="K" peptide_next_aa="" protein="BL_ORD_ID:4847" num_tot_proteins="1" num_matched_ions="7" tot_num_ions="62" calc_neutral_pep_mass="3801.69091796875" massdiff="-0.053955078125" is_rejected="0" protein_descr="sp|P40081_REVERSED|MGDP1_YEAST Putative magnesium-dependent phosphatase YER134C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YER134C PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="VPKFPGHLHTDCYCPWITYDLDFAAVDPYGTM[147]">
+            <mod_aminoacid_mass position="32" mass="147.03549"/>
+            <mod_aminoacid_mass position="12" mass="160.03019"/>
+            <mod_aminoacid_mass position="14" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.006814501765707"/>
+          <search_score name="expect" value="2.425962628591869"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W904, Spot_Id: 159186, Peak_List_Id: 184746, MSMS Job_Run_Id: 14047, Comment: .293.293.4" start_scan="293" end_scan="293" precursor_neutral_mass="5069.18603515625" assumed_charge="4" index="9">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EPWTMTNNIPMNSAFEGDDLTNAQSTSFGIDGEDYHGEPQPQDKK" peptide_prev_aa="R" peptide_next_aa="D" protein="BL_ORD_ID:8645" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="88" calc_neutral_pep_mass="5069.18994140625" massdiff="-0.00390625" is_rejected="0" protein_descr="sp|P50111_REVERSED|ZDS1_YEAST Protein ZDS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ZDS1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="EPWTM[147]TNNIPMNSAFEGDDLTNAQSTSFGIDGEDYHGEPQPQDK[170]K">
+            <mod_aminoacid_mass position="5" mass="147.03549"/>
+            <mod_aminoacid_mass position="44" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.329235589287266"/>
+          <search_score name="expect" value="93.832142946870789"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="EPWTMTNNIPMNSAFEGDDLTNAQSTSFGIDGEDYHGEPQPQDKK" peptide_prev_aa="R" peptide_next_aa="D" protein="BL_ORD_ID:8645" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="88" calc_neutral_pep_mass="5069.18994140625" massdiff="-0.00390625" is_rejected="0" protein_descr="sp|P50111_REVERSED|ZDS1_YEAST Protein ZDS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ZDS1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="EPWTM[147]TNNIPMNSAFEGDDLTNAQSTSFGIDGEDYHGEPQPQDKK[170]">
+            <mod_aminoacid_mass position="5" mass="147.03549"/>
+            <mod_aminoacid_mass position="45" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.329235589287266"/>
+          <search_score name="expect" value="93.832142946870789"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1625, Spot_Id: 160081, Peak_List_Id: 185082, MSMS Job_Run_Id: 14047, Comment: .297.297.3" start_scan="297" end_scan="297" precursor_neutral_mass="3826.9130859375" assumed_charge="3" index="10">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GVVIRASPSDLQERENDLVAKTLFQCTTEYSMK" peptide_prev_aa="K" peptide_next_aa="M" protein="BL_ORD_ID:497" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="64" calc_neutral_pep_mass="3826.88696289062" massdiff="0.026123046875" is_rejected="0" protein_descr="sp|P10964_REVERSED|RPA1_YEAST DNA-directed RNA polymerase I subunit RPA190 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPA190 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="GVVIRASPSDLQERENDLVAKTLFQCTTEYSMK[170]">
+            <mod_aminoacid_mass position="33" mass="170.10596"/>
+            <mod_aminoacid_mass position="26" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.002178276781198"/>
+          <search_score name="expect" value="6.432451334877447"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="GVVIRASPSDLQERENDLVAKTLFQCTTEYSMK" peptide_prev_aa="K" peptide_next_aa="M" protein="BL_ORD_ID:497" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="64" calc_neutral_pep_mass="3826.88696289062" massdiff="0.026123046875" is_rejected="0" protein_descr="sp|P10964_REVERSED|RPA1_YEAST DNA-directed RNA polymerase I subunit RPA190 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPA190 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="GVVIRASPSDLQERENDLVAK[170]TLFQCTTEYSMK">
+            <mod_aminoacid_mass position="21" mass="170.10596"/>
+            <mod_aminoacid_mass position="26" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.006067850312349"/>
+          <search_score name="expect" value="17.918361972367997"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1625, Spot_Id: 160081, Peak_List_Id: 185082, MSMS Job_Run_Id: 14047, Comment: .297.297.4" start_scan="297" end_scan="297" precursor_neutral_mass="5101.5419921875" assumed_charge="4" index="11">
+      <search_result>
+        <search_hit hit_rank="1" peptide="VHMLGPQGPVPVLGIMKRWGTFSGTVYVKNGGQQWTIDVPFMMAR" peptide_prev_aa="K" peptide_next_aa="G" protein="BL_ORD_ID:3527" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="88" calc_neutral_pep_mass="5101.55419921875" massdiff="-0.01220703125" is_rejected="0" protein_descr="sp|Q04739_REVERSED|GAL83_YEAST SNF1 protein kinase subunit beta-3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GAL83 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="VHM[147]LGPQGPVPVLGIMK[170]RWGTFSGTVYVK[170]NGGQQWTIDVPFMM[147]AR">
+            <mod_aminoacid_mass position="3" mass="147.03549"/>
+            <mod_aminoacid_mass position="17" mass="170.10596"/>
+            <mod_aminoacid_mass position="29" mass="170.10596"/>
+            <mod_aminoacid_mass position="43" mass="147.03549"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.028076854201144"/>
+          <search_score name="expect" value="65.054071184049718"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="VHMLGPQGPVPVLGIMKRWGTFSGTVYVKNGGQQWTIDVPFMMAR" peptide_prev_aa="K" peptide_next_aa="G" protein="BL_ORD_ID:3527" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="88" calc_neutral_pep_mass="5101.55419921875" massdiff="-0.01220703125" is_rejected="0" protein_descr="sp|Q04739_REVERSED|GAL83_YEAST SNF1 protein kinase subunit beta-3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GAL83 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="VHM[147]LGPQGPVPVLGIMK[170]RWGTFSGTVYVK[170]NGGQQWTIDVPFM[147]MAR">
+            <mod_aminoacid_mass position="3" mass="147.03549"/>
+            <mod_aminoacid_mass position="17" mass="170.10596"/>
+            <mod_aminoacid_mass position="29" mass="170.10596"/>
+            <mod_aminoacid_mass position="42" mass="147.03549"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.028076854201144"/>
+          <search_score name="expect" value="65.054071184049718"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1915, Spot_Id: 158625, Peak_List_Id: 185127, MSMS Job_Run_Id: 14047, Comment: .312.312.3" start_scan="312" end_scan="312" precursor_neutral_mass="3899.31494140625" assumed_charge="3" index="12">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GSLVIIYLAVFMPVNLAVLKIWQGITVKRSIFLR" peptide_prev_aa="K" peptide_next_aa="V" protein="BL_ORD_ID:3033" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="66" calc_neutral_pep_mass="3899.294921875" massdiff="0.02001953125" is_rejected="0" protein_descr="sp|Q99382_REVERSED|ENV10_YEAST SRP-independent targeting protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ENV10 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="GSLVIIYLAVFMPVNLAVLKIWQGITVK[170]RSIFLR">
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.09117633636477"/>
+          <search_score name="expect" value="3.099995436402191"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W600, Spot_Id: 160264, Peak_List_Id: 184499, MSMS Job_Run_Id: 14047, Comment: .316.316.3" start_scan="316" end_scan="316" precursor_neutral_mass="3922.79907226562" assumed_charge="3" index="13">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CLYKFQSGGPECNMVPIHENKVDQVDALYQKR" peptide_prev_aa="K" peptide_next_aa="L" protein="BL_ORD_ID:7951" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="62" calc_neutral_pep_mass="3922.84301757812" massdiff="-0.0439453125" is_rejected="0" protein_descr="sp|Q04408_REVERSED|YD514_YEAST Uncharacterized protein YDR514C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YDR514C PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="CLYK[170]FQSGGPECNM[147]VPIHENKVDQVDALYQK[170]R">
+            <mod_aminoacid_mass position="4" mass="170.10596"/>
+            <mod_aminoacid_mass position="14" mass="147.03549"/>
+            <mod_aminoacid_mass position="31" mass="170.10596"/>
+            <mod_aminoacid_mass position="1" mass="160.03019"/>
+            <mod_aminoacid_mass position="12" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.070033838850358"/>
+          <search_score name="expect" value="98.887780456705059"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W600, Spot_Id: 160264, Peak_List_Id: 184499, MSMS Job_Run_Id: 14047, Comment: .316.316.4" start_scan="316" end_scan="316" precursor_neutral_mass="5230.39892578125" assumed_charge="4" index="14">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MAKLTEQYDQLDDITEASICGAAATYVYQEPKQVGFTQRYADSAGK" peptide_prev_aa="R" peptide_next_aa="T" protein="BL_ORD_ID:4815" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="90" calc_neutral_pep_mass="5230.43896484375" massdiff="-0.0400390625" is_rejected="0" protein_descr="sp|Q04439_REVERSED|MYO5_YEAST Myosin-5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MYO5 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="M[147]AKLTEQYDQLDDITEASICGAAATYVYQEPK[170]QVGFTQRYADSAGK[170]">
+            <mod_aminoacid_mass position="1" mass="147.03549"/>
+            <mod_aminoacid_mass position="32" mass="170.10596"/>
+            <mod_aminoacid_mass position="46" mass="170.10596"/>
+            <mod_aminoacid_mass position="20" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.028534087142044"/>
+          <search_score name="expect" value="28.334348532050143"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W649, Spot_Id: 159090, Peak_List_Id: 184539, MSMS Job_Run_Id: 14047, Comment: .350.350.2" start_scan="350" end_scan="350" precursor_neutral_mass="2731.30908203125" assumed_charge="2" index="15">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SYTVKNERIPFKHDEDDQLDLK" peptide_prev_aa="R" peptide_next_aa="V" protein="BL_ORD_ID:11333" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="42" calc_neutral_pep_mass="2731.34692382812" massdiff="-0.037841796875" is_rejected="0" protein_descr="sp|P38170_REVERSED|CND2_YEAST Condensin complex subunit 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BRN1 PE=1 SV=3-REVERSED">
+          <modification_info modified_peptide="SYTVKNERIPFKHDEDDQLDLK[170]">
+            <mod_aminoacid_mass position="22" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.012892575875424"/>
+          <search_score name="expect" value="28.82779965744724"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W549, Spot_Id: 158887, Peak_List_Id: 184474, MSMS Job_Run_Id: 14047, Comment: .375.375.2" start_scan="375" end_scan="375" precursor_neutral_mass="2801.34692382812" assumed_charge="2" index="16">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NEVQSDEEADGQDLSLEPEQASKRK" peptide_prev_aa="R" peptide_next_aa="Q" protein="BL_ORD_ID:2089" num_tot_proteins="1" num_matched_ions="7" tot_num_ions="48" calc_neutral_pep_mass="2801.29809570312" massdiff="0.048828125" is_rejected="0" protein_descr="sp|Q12267_REVERSED|SMC4_YEAST Structural maintenance of chromosomes protein 4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SMC4 PE=1 SV=1-REVERSED">
+          <search_score name="pvalue" value="0.000531718271532"/>
+          <search_score name="expect" value="1.238371854397233"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1297, Spot_Id: 160174, Peak_List_Id: 184987, MSMS Job_Run_Id: 14047, Comment: .394.394.2" start_scan="394" end_scan="394" precursor_neutral_mass="2877.623046875" assumed_charge="2" index="17">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FLLPVLLKCPHLEIVNLSDNAFGLR" peptide_prev_aa="K" peptide_next_aa="T" protein="BL_ORD_ID:1312" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="48" calc_neutral_pep_mass="2877.59204101562" massdiff="0.031005859375" is_rejected="0" protein_descr="sp|P11745|RNA1_YEAST Ran GTPase-activating protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RNA1 PE=1 SV=2">
+          <modification_info modified_peptide="FLLPVLLKCPHLEIVNLSDNAFGLR">
+            <mod_aminoacid_mass position="9" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.084344177424618"/>
+          <search_score name="expect" value="58.956580019808129"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W711, Spot_Id: 158618, Peak_List_Id: 184591, MSMS Job_Run_Id: 14047, Comment: .416.416.3" start_scan="416" end_scan="416" precursor_neutral_mass="4463.18603515625" assumed_charge="3" index="18">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SYLSWVEEAIEAPASTGSAGITRELMEKAEVPLNQIMDTGK" peptide_prev_aa="R" peptide_next_aa="V" protein="BL_ORD_ID:3137" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="80" calc_neutral_pep_mass="4463.18798828125" massdiff="-0.001953125" is_rejected="0" protein_descr="sp|P35731_REVERSED|FABG_YEAST 3-oxoacyl-[acyl-carrier-protein] reductase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=OAR1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="SYLSWVEEAIEAPASTGSAGITRELMEK[170]AEVPLNQIMDTGK">
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.005053091980107"/>
+          <search_score name="expect" value="13.759569461830607"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="SYLSWVEEAIEAPASTGSAGITRELMEKAEVPLNQIMDTGK" peptide_prev_aa="R" peptide_next_aa="V" protein="BL_ORD_ID:3137" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="80" calc_neutral_pep_mass="4463.18798828125" massdiff="-0.001953125" is_rejected="0" protein_descr="sp|P35731_REVERSED|FABG_YEAST 3-oxoacyl-[acyl-carrier-protein] reductase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=OAR1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="SYLSWVEEAIEAPASTGSAGITRELMEKAEVPLNQIMDTGK[170]">
+            <mod_aminoacid_mass position="41" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.007425209053728"/>
+          <search_score name="expect" value="20.218844253300837"/>
+        </search_hit>
+        <search_hit hit_rank="3" peptide="KCIFHEDFDVSGFEFTSTGLASSITKRITSSTVSHFILAK" peptide_prev_aa="K" peptide_next_aa="S" protein="BL_ORD_ID:7144" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="78" calc_neutral_pep_mass="4463.2451171875" massdiff="-0.05908203125" is_rejected="0" protein_descr="sp|P33202|UFD4_YEAST Ubiquitin fusion degradation protein 4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UFD4 PE=1 SV=1">
+          <modification_info modified_peptide="KCIFHEDFDVSGFEFTSTGLASSITKRITSSTVSHFILAK">
+            <mod_aminoacid_mass position="2" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.034816427250124"/>
+          <search_score name="expect" value="94.805131402087696"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W644, Spot_Id: 159225, Peak_List_Id: 184538, MSMS Job_Run_Id: 14047, Comment: .417.417.2" start_scan="417" end_scan="417" precursor_neutral_mass="2975.47705078125" assumed_charge="2" index="19">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DVPLDMKQGPQKSAALEPMNNLPNIR" peptide_prev_aa="R" peptide_next_aa="D" protein="BL_ORD_ID:10991" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="50" calc_neutral_pep_mass="2975.48608398438" massdiff="-0.009033203125" is_rejected="0" protein_descr="sp|P06182_REVERSED|CCHL_YEAST Cytochrome c heme lyase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CYC3 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="DVPLDMK[170]QGPQK[170]SAALEPM[147]NNLPNIR">
+            <mod_aminoacid_mass position="7" mass="170.10596"/>
+            <mod_aminoacid_mass position="12" mass="170.10596"/>
+            <mod_aminoacid_mass position="19" mass="147.03549"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.01872705892997"/>
+          <search_score name="expect" value="56.050087377401134"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W834, Spot_Id: 158740, Peak_List_Id: 184682, MSMS Job_Run_Id: 14047, Comment: .419.419.2" start_scan="419" end_scan="419" precursor_neutral_mass="2978.44799804688" assumed_charge="2" index="20">
+      <search_result>
+        <search_hit hit_rank="1" peptide="GIKDFKFGSVIGDGAYSTVMLATSIDTK" peptide_prev_aa="K" peptide_next_aa="K" protein="BL_ORD_ID:6390" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="54" calc_neutral_pep_mass="2978.49194335938" massdiff="-0.0439453125" is_rejected="0" protein_descr="sp|Q12236|PKH2_YEAST Serine/threonine-protein kinase PKH2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PKH2 PE=1 SV=1">
+          <modification_info modified_peptide="GIKDFKFGSVIGDGAYSTVM[147]LATSIDTK[170]">
+            <mod_aminoacid_mass position="20" mass="147.03549"/>
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.000934998475418"/>
+          <search_score name="expect" value="2.449696005595499"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="TMDLFVWSVEWILCPMQEKGEKK" peptide_prev_aa="K" peptide_next_aa="E" protein="BL_ORD_ID:11142" num_tot_proteins="1" num_matched_ions="4" tot_num_ions="44" calc_neutral_pep_mass="2979.42211914062" massdiff="-0.97412109375" is_rejected="0" protein_descr="sp|P38772|BCD1_YEAST Box C/D snoRNA protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BCD1 PE=1 SV=1">
+          <modification_info modified_peptide="TMDLFVWSVEWILCPMQEK[170]GEK[170]K[170]">
+            <mod_aminoacid_mass position="19" mass="170.10596"/>
+            <mod_aminoacid_mass position="22" mass="170.10596"/>
+            <mod_aminoacid_mass position="23" mass="170.10596"/>
+            <mod_aminoacid_mass position="14" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.036754097728793"/>
+          <search_score name="expect" value="96.295736049437821"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1991, Spot_Id: 160016, Peak_List_Id: 185140, MSMS Job_Run_Id: 14047, Comment: .424.424.2" start_scan="424" end_scan="424" precursor_neutral_mass="2998.60791015625" assumed_charge="2" index="21">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TTSLVNNILNGNNARTKTGSHLSSTSRR" peptide_prev_aa="R" peptide_next_aa="K" protein="BL_ORD_ID:2068" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="54" calc_neutral_pep_mass="2998.56591796875" massdiff="0.0419921875" is_rejected="0" protein_descr="sp|P40210|SIP5_YEAST Protein SIP5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SIP5 PE=1 SV=1">
+          <search_score name="pvalue" value="0.009595377255609"/>
+          <search_score name="expect" value="22.664281077748338"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="NSLDDLILFLTVYHGKGNFRIFNFR" peptide_prev_aa="R" peptide_next_aa="G" protein="BL_ORD_ID:2264" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="48" calc_neutral_pep_mass="2998.5791015625" massdiff="0.02880859375" is_rejected="0" protein_descr="sp|P53916|TEP1_YEAST Probable phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase TEP1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TEP1 PE=4 SV=1">
+          <search_score name="pvalue" value="0.024077754764581"/>
+          <search_score name="expect" value="56.871656753941366"/>
+        </search_hit>
+        <search_hit hit_rank="3" peptide="YTPLTKLPNFNEVSPEERIPLFIAK" peptide_prev_aa="R" peptide_next_aa="V" protein="BL_ORD_ID:11304" num_tot_proteins="1" num_matched_ions="5" tot_num_ions="48" calc_neutral_pep_mass="2999.60302734375" massdiff="-0.9951171875" is_rejected="0" protein_descr="sp|P38903|2A5D_YEAST Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta isoform OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RTS1 PE=1 SV=2">
+          <modification_info modified_peptide="YTPLTK[170]LPNFNEVSPEERIPLFIAK[170]">
+            <mod_aminoacid_mass position="6" mass="170.10596"/>
+            <mod_aminoacid_mass position="25" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.03188934527855"/>
+          <search_score name="expect" value="75.322633547934757"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W560, Spot_Id: 159184, Peak_List_Id: 184479, MSMS Job_Run_Id: 14047, Comment: .425.425.4" start_scan="425" end_scan="425" precursor_neutral_mass="6009.5498046875" assumed_charge="4" index="22">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NSSSTIVDDEEDDVEDTDTGSPVILPDDKKDNDDDDDDDDDDDNSVDDLIRNK" peptide_prev_aa="K" peptide_next_aa="K" protein="BL_ORD_ID:311" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="104" calc_neutral_pep_mass="6009.4482421875" massdiff="0.1015625" is_rejected="0" protein_descr="sp|Q03707_REVERSED|SRC1_YEAST Inner nuclear membrane protein SRC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRC1 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="NSSSTIVDDEEDDVEDTDTGSPVILPDDK[170]K[170]DNDDDDDDDDDDDNSVDDLIRNK[170]">
+            <mod_aminoacid_mass position="29" mass="170.10596"/>
+            <mod_aminoacid_mass position="30" mass="170.10596"/>
+            <mod_aminoacid_mass position="53" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.250468808215235"/>
+          <search_score name="expect" value="34.815164341917622"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="KAFKDLSLDETPCNSCGESDYECSFEFVRDANGLCIPDYNLIAFSNICDK" peptide_prev_aa="K" peptide_next_aa="S" protein="BL_ORD_ID:9124" num_tot_proteins="1" num_matched_ions="5" tot_num_ions="98" calc_neutral_pep_mass="6009.60693359375" massdiff="-0.05712890625" is_rejected="0" protein_descr="sp|P53751|YN94_YEAST Uncharacterized membrane glycoprotein YNR065C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YNR065C PE=4 SV=1">
+          <modification_info modified_peptide="K[170]AFK[170]DLSLDETPCNSCGESDYECSFEFVRDANGLCIPDYNLIAFSNICDK[170]">
+            <mod_aminoacid_mass position="1" mass="170.10596"/>
+            <mod_aminoacid_mass position="4" mass="170.10596"/>
+            <mod_aminoacid_mass position="50" mass="170.10596"/>
+            <mod_aminoacid_mass position="13" mass="160.03019"/>
+            <mod_aminoacid_mass position="16" mass="160.03019"/>
+            <mod_aminoacid_mass position="23" mass="160.03019"/>
+            <mod_aminoacid_mass position="35" mass="160.03019"/>
+            <mod_aminoacid_mass position="48" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.614415230120034"/>
+          <search_score name="expect" value="85.403716986684685"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W811, Spot_Id: 159361, Peak_List_Id: 184668, MSMS Job_Run_Id: 14047, Comment: .434.434.4" start_scan="434" end_scan="434" precursor_neutral_mass="6086.7431640625" assumed_charge="4" index="23">
+      <search_result>
+        <search_hit hit_rank="1" peptide="MAKPMINFDIDTLSSACVVILDFTDFYKEGWDGEELTAIYHDAGMKMADERK" peptide_prev_aa="K" peptide_next_aa="R" protein="BL_ORD_ID:10763" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="102" calc_neutral_pep_mass="6086.80419921875" massdiff="-0.06103515625" is_rejected="0" protein_descr="sp|Q04894_REVERSED|ADH6_YEAST NADP-dependent alcohol dehydrogenase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ADH6 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="MAKPMINFDIDTLSSACVVILDFTDFYK[170]EGWDGEELTAIYHDAGMKM[147]ADERK[170]">
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+            <mod_aminoacid_mass position="47" mass="147.03549"/>
+            <mod_aminoacid_mass position="52" mass="170.10596"/>
+            <mod_aminoacid_mass position="17" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.024881109472841"/>
+          <search_score name="expect" value="13.261631349024491"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="MAKPMINFDIDTLSSACVVILDFTDFYKEGWDGEELTAIYHDAGMKMADERK" peptide_prev_aa="K" peptide_next_aa="R" protein="BL_ORD_ID:10763" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="102" calc_neutral_pep_mass="6086.80419921875" massdiff="-0.06103515625" is_rejected="0" protein_descr="sp|Q04894_REVERSED|ADH6_YEAST NADP-dependent alcohol dehydrogenase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ADH6 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="MAKPMINFDIDTLSSACVVILDFTDFYK[170]EGWDGEELTAIYHDAGM[147]K[170]MADERK">
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+            <mod_aminoacid_mass position="45" mass="147.03549"/>
+            <mod_aminoacid_mass position="46" mass="170.10596"/>
+            <mod_aminoacid_mass position="17" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.024881109472841"/>
+          <search_score name="expect" value="13.261631349024491"/>
+        </search_hit>
+        <search_hit hit_rank="3" peptide="MAKPMINFDIDTLSSACVVILDFTDFYKEGWDGEELTAIYHDAGMKMADERK" peptide_prev_aa="K" peptide_next_aa="R" protein="BL_ORD_ID:10763" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="102" calc_neutral_pep_mass="6086.80419921875" massdiff="-0.06103515625" is_rejected="0" protein_descr="sp|Q04894_REVERSED|ADH6_YEAST NADP-dependent alcohol dehydrogenase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ADH6 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="MAKPMINFDIDTLSSACVVILDFTDFYK[170]EGWDGEELTAIYHDAGMK[170]M[147]ADERK">
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+            <mod_aminoacid_mass position="46" mass="170.10596"/>
+            <mod_aminoacid_mass position="47" mass="147.03549"/>
+            <mod_aminoacid_mass position="17" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.024881109472841"/>
+          <search_score name="expect" value="13.261631349024491"/>
+        </search_hit>
+        <search_hit hit_rank="4" peptide="MAKPMINFDIDTLSSACVVILDFTDFYKEGWDGEELTAIYHDAGMKMADERK" peptide_prev_aa="K" peptide_next_aa="R" protein="BL_ORD_ID:10763" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="102" calc_neutral_pep_mass="6086.80419921875" massdiff="-0.06103515625" is_rejected="0" protein_descr="sp|Q04894_REVERSED|ADH6_YEAST NADP-dependent alcohol dehydrogenase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ADH6 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="MAKPMINFDIDTLSSACVVILDFTDFYK[170]EGWDGEELTAIYHDAGM[147]KMADERK[170]">
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+            <mod_aminoacid_mass position="45" mass="147.03549"/>
+            <mod_aminoacid_mass position="52" mass="170.10596"/>
+            <mod_aminoacid_mass position="17" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.024881109472841"/>
+          <search_score name="expect" value="13.261631349024491"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W562, Spot_Id: 159238, Peak_List_Id: 184480, MSMS Job_Run_Id: 14047, Comment: .445.445.4" start_scan="445" end_scan="445" precursor_neutral_mass="6130.9111328125" assumed_charge="4" index="24">
+      <search_result>
+        <search_hit hit_rank="1" peptide="DFVINTNSSSTSTLQGNDSLERGVLIILDRNIDFASMFSHSWIYQCMVFDIFK" peptide_prev_aa="R" peptide_next_aa="L" protein="BL_ORD_ID:1632" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="104" calc_neutral_pep_mass="6130.9501953125" massdiff="-0.0390625" is_rejected="0" protein_descr="sp|P22213|SLY1_YEAST Protein SLY1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SLY1 PE=1 SV=1">
+          <modification_info modified_peptide="DFVINTNSSSTSTLQGNDSLERGVLIILDRNIDFASMFSHSWIYQCMVFDIFK">
+            <mod_aminoacid_mass position="46" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.01020240611848"/>
+          <search_score name="expect" value="12.497947495137678"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W775, Spot_Id: 160333, Peak_List_Id: 184647, MSMS Job_Run_Id: 14047, Comment: .448.448.3" start_scan="448" end_scan="448" precursor_neutral_mass="4622.330078125" assumed_charge="3" index="25">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FDSAYLKEGNVLGMFGQTTGQSHAVLSLKAYGTSDLVYNILAK" peptide_prev_aa="K" peptide_next_aa="L" protein="BL_ORD_ID:9703" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="84" calc_neutral_pep_mass="4622.3330078125" massdiff="-0.0029296875" is_rejected="0" protein_descr="sp|Q07950_REVERSED|YEH2_YEAST Sterol esterase 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YEH2 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="FDSAYLKEGNVLGM[147]FGQTTGQSHAVLSLKAYGTSDLVYNILAK">
+            <mod_aminoacid_mass position="14" mass="147.03549"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.032583879669528"/>
+          <search_score name="expect" value="89.377581933516055"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W528, Spot_Id: 158320, Peak_List_Id: 184467, MSMS Job_Run_Id: 14047, Comment: .451.451.4" start_scan="451" end_scan="451" precursor_neutral_mass="6170.626953125" assumed_charge="4" index="26">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSDELSDFDPDPDSSSYPDDDPKRDGHDENDNENHYHPLEDGNKSVFHVFDAAR" peptide_prev_aa="R" peptide_next_aa="K" protein="BL_ORD_ID:6773" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="106" calc_neutral_pep_mass="6170.625" massdiff="0.001953125" is_rejected="0" protein_descr="sp|P38297_REVERSED|FZO1_YEAST Mitofusin FZO1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=FZO1 PE=1 SV=1-REVERSED">
+          <search_score name="pvalue" value="0.581857786118241"/>
+          <search_score name="expect" value="73.895938837016558"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1407, Spot_Id: 158838, Peak_List_Id: 185028, MSMS Job_Run_Id: 14047, Comment: .470.470.3" start_scan="470" end_scan="470" precursor_neutral_mass="4732.35693359375" assumed_charge="3" index="27">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FTASVEKNILEQVDRPLYNLPQTGANISSPAEVEENSEKFGK" peptide_prev_aa="K" peptide_next_aa="T" protein="BL_ORD_ID:7260" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="82" calc_neutral_pep_mass="4732.35302734375" massdiff="0.00390625" is_rejected="0" protein_descr="sp|Q92331|VPS5_YEAST Vacuolar protein sorting-associated protein 5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VPS5 PE=1 SV=1">
+          <modification_info modified_peptide="FTASVEK[170]NILEQVDRPLYNLPQTGANISSPAEVEENSEK[170]FGK">
+            <mod_aminoacid_mass position="7" mass="170.10596"/>
+            <mod_aminoacid_mass position="39" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.0006775799414"/>
+          <search_score name="expect" value="1.702080812795923"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="FTASVEKNILEQVDRPLYNLPQTGANISSPAEVEENSEKFGK" peptide_prev_aa="K" peptide_next_aa="T" protein="BL_ORD_ID:7260" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="82" calc_neutral_pep_mass="4732.35302734375" massdiff="0.00390625" is_rejected="0" protein_descr="sp|Q92331|VPS5_YEAST Vacuolar protein sorting-associated protein 5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VPS5 PE=1 SV=1">
+          <modification_info modified_peptide="FTASVEK[170]NILEQVDRPLYNLPQTGANISSPAEVEENSEKFGK[170]">
+            <mod_aminoacid_mass position="7" mass="170.10596"/>
+            <mod_aminoacid_mass position="42" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.0006775799414"/>
+          <search_score name="expect" value="1.702080812795923"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1053, Spot_Id: 158566, Peak_List_Id: 184842, MSMS Job_Run_Id: 14047, Comment: .472.472.2" start_scan="472" end_scan="472" precursor_neutral_mass="3156.5439453125" assumed_charge="2" index="28">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LKNVLNGIDENDDANNTMNNESGGLKRK" peptide_prev_aa="K" peptide_next_aa="K" protein="BL_ORD_ID:3127" num_tot_proteins="1" num_matched_ions="5" tot_num_ions="54" calc_neutral_pep_mass="3156.51098632812" massdiff="0.032958984375" is_rejected="0" protein_descr="sp|Q06344_REVERSED|ESF1_YEAST Pre-rRNA-processing protein ESF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ESF1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="LK[170]NVLNGIDENDDANNTMNNESGGLK[170]RK">
+            <mod_aminoacid_mass position="2" mass="170.10596"/>
+            <mod_aminoacid_mass position="26" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.030858337609779"/>
+          <search_score name="expect" value="88.779437303333154"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="LKNVLNGIDENDDANNTMNNESGGLKRK" peptide_prev_aa="K" peptide_next_aa="K" protein="BL_ORD_ID:3127" num_tot_proteins="1" num_matched_ions="5" tot_num_ions="54" calc_neutral_pep_mass="3156.51098632812" massdiff="0.032958984375" is_rejected="0" protein_descr="sp|Q06344_REVERSED|ESF1_YEAST Pre-rRNA-processing protein ESF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ESF1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="LK[170]NVLNGIDENDDANNTMNNESGGLKRK[170]">
+            <mod_aminoacid_mass position="2" mass="170.10596"/>
+            <mod_aminoacid_mass position="28" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.030858337609779"/>
+          <search_score name="expect" value="88.779437303333154"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W932, Spot_Id: 159942, Peak_List_Id: 184762, MSMS Job_Run_Id: 14047, Comment: .473.473.3" start_scan="473" end_scan="473" precursor_neutral_mass="4741.60595703125" assumed_charge="3" index="29">
+      <search_result>
+        <search_hit hit_rank="1" peptide="KLQGENIQINDIMPWLRESTILVLLNILYPTLMKFPFLK" peptide_prev_aa="K" peptide_next_aa="N" protein="BL_ORD_ID:8946" num_tot_proteins="1" num_matched_ions="7" tot_num_ions="76" calc_neutral_pep_mass="4741.60009765625" massdiff="0.005859375" is_rejected="0" protein_descr="sp|P53293|YG3W_YEAST Uncharacterized protein YGR168C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YGR168C PE=4 SV=1">
+          <modification_info modified_peptide="KLQGENIQINDIMPWLRESTILVLLNILYPTLM[147]K[170]FPFLK[170]">
+            <mod_aminoacid_mass position="33" mass="147.03549"/>
+            <mod_aminoacid_mass position="34" mass="170.10596"/>
+            <mod_aminoacid_mass position="39" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.026254678168581"/>
+          <search_score name="expect" value="13.074829727953489"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="DLNLQSKLIPINEPIVAASSIIVPHSTNMPLPRASHSSLLDNAK" peptide_prev_aa="R" peptide_next_aa="N" protein="BL_ORD_ID:4256" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="86" calc_neutral_pep_mass="4742.5439453125" massdiff="-0.93798828125" is_rejected="0" protein_descr="sp|Q12315|GLE1_YEAST Nucleoporin GLE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GLE1 PE=1 SV=1">
+          <modification_info modified_peptide="DLNLQSKLIPINEPIVAASSIIVPHSTNMPLPRASHSSLLDNAK[170]">
+            <mod_aminoacid_mass position="44" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.039538298151166"/>
+          <search_score name="expect" value="19.690072479280843"/>
+        </search_hit>
+        <search_hit hit_rank="3" peptide="KLQGENIQINDIMPWLRESTILVLLNILYPTLMKFPFLK" peptide_prev_aa="K" peptide_next_aa="N" protein="BL_ORD_ID:8946" num_tot_proteins="1" num_matched_ions="7" tot_num_ions="76" calc_neutral_pep_mass="4741.60009765625" massdiff="0.005859375" is_rejected="0" protein_descr="sp|P53293|YG3W_YEAST Uncharacterized protein YGR168C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YGR168C PE=4 SV=1">
+          <modification_info modified_peptide="KLQGENIQINDIM[147]PWLRESTILVLLNILYPTLMK[170]FPFLK[170]">
+            <mod_aminoacid_mass position="13" mass="147.03549"/>
+            <mod_aminoacid_mass position="34" mass="170.10596"/>
+            <mod_aminoacid_mass position="39" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.170911914984541"/>
+          <search_score name="expect" value="85.114133662301498"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W847, Spot_Id: 158389, Peak_List_Id: 184693, MSMS Job_Run_Id: 14047, Comment: .484.484.3" start_scan="484" end_scan="484" precursor_neutral_mass="4801.30322265625" assumed_charge="3" index="30">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FHPLDTHNVTADGLKAMYSIGSPFYDYKYHTFYFSHGYNR" peptide_prev_aa="R" peptide_next_aa="Y" protein="BL_ORD_ID:8105" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="78" calc_neutral_pep_mass="4801.208984375" massdiff="0.09423828125" is_rejected="0" protein_descr="sp|P39989_REVERSED|YEC8_YEAST Uncharacterized protein YEL028W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YEL028W PE=3 SV=1-REVERSED">
+          <modification_info modified_peptide="FHPLDTHNVTADGLK[170]AMYSIGSPFYDYKYHTFYFSHGYNR">
+            <mod_aminoacid_mass position="15" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.002985966228497"/>
+          <search_score name="expect" value="7.115557522507192"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W837, Spot_Id: 158659, Peak_List_Id: 184687, MSMS Job_Run_Id: 14047, Comment: .509.509.3" start_scan="509" end_scan="509" precursor_neutral_mass="4981.3388671875" assumed_charge="3" index="31">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TSMITTQAGTDVFAKVPYNNIEINIYLMPVQTFMEPTYEIANR" peptide_prev_aa="R" peptide_next_aa="L" protein="BL_ORD_ID:10347" num_tot_proteins="1" num_matched_ions="7" tot_num_ions="84" calc_neutral_pep_mass="4981.4228515625" massdiff="-0.083984375" is_rejected="0" protein_descr="sp|P40087_REVERSED|DDI1_YEAST DNA damage-inducible protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DDI1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="TSM[147]ITTQAGTDVFAK[170]VPYNNIEINIYLMPVQTFMEPTYEIANR">
+            <mod_aminoacid_mass position="3" mass="147.03549"/>
+            <mod_aminoacid_mass position="15" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.007368990089708"/>
+          <search_score name="expect" value="13.301027111923016"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W631, Spot_Id: 159576, Peak_List_Id: 184526, MSMS Job_Run_Id: 14047, Comment: .522.522.3" start_scan="522" end_scan="522" precursor_neutral_mass="5135.1650390625" assumed_charge="3" index="32">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NNDKDSSAGQYANSIDNSLSQESVSTNGVTRMANLKADECGSGDEGDK" peptide_prev_aa="K" peptide_next_aa="T" protein="BL_ORD_ID:5290" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="94" calc_neutral_pep_mass="5135.20703125" massdiff="-0.0419921875" is_rejected="0" protein_descr="sp|Q00402|NUM1_YEAST Nuclear migration protein NUM1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NUM1 PE=1 SV=2">
+          <modification_info modified_peptide="NNDKDSSAGQYANSIDNSLSQESVSTNGVTRM[147]ANLK[170]ADECGSGDEGDK[170]">
+            <mod_aminoacid_mass position="32" mass="147.03549"/>
+            <mod_aminoacid_mass position="36" mass="170.10596"/>
+            <mod_aminoacid_mass position="48" mass="170.10596"/>
+            <mod_aminoacid_mass position="40" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.443850798301006"/>
+          <search_score name="expect" value="92.320966046609215"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W514, Spot_Id: 158090, Peak_List_Id: 184464, MSMS Job_Run_Id: 14047, Comment: .526.526.3" start_scan="526" end_scan="526" precursor_neutral_mass="5171.20703125" assumed_charge="3" index="33">
+      <search_result>
+        <search_hit hit_rank="1" peptide="SFSMDPCIHCKWNKTVLSDDHIIMHMQLGNEGVCPKSCIPCK" peptide_prev_aa="R" peptide_next_aa="L" protein="BL_ORD_ID:1125" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="82" calc_neutral_pep_mass="5171.298828125" massdiff="-0.091796875" is_rejected="0" protein_descr="sp|P39933_REVERSED|TF3A_YEAST Transcription factor IIIA OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PZF1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="SFSMDPCIHCKWNK[170]TVLSDDHIIM[147]HMQLGNEGVCPK[170]SCIPCK[170]">
+            <mod_aminoacid_mass position="14" mass="170.10596"/>
+            <mod_aminoacid_mass position="24" mass="147.03549"/>
+            <mod_aminoacid_mass position="36" mass="170.10596"/>
+            <mod_aminoacid_mass position="42" mass="170.10596"/>
+            <mod_aminoacid_mass position="7" mass="160.03019"/>
+            <mod_aminoacid_mass position="10" mass="160.03019"/>
+            <mod_aminoacid_mass position="34" mass="160.03019"/>
+            <mod_aminoacid_mass position="38" mass="160.03019"/>
+            <mod_aminoacid_mass position="41" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.330452347719869"/>
+          <search_score name="expect" value="67.412278934853248"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="SFSMDPCIHCKWNKTVLSDDHIIMHMQLGNEGVCPKSCIPCK" peptide_prev_aa="R" peptide_next_aa="L" protein="BL_ORD_ID:1125" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="82" calc_neutral_pep_mass="5171.298828125" massdiff="-0.091796875" is_rejected="0" protein_descr="sp|P39933_REVERSED|TF3A_YEAST Transcription factor IIIA OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PZF1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="SFSMDPCIHCK[170]WNKTVLSDDHIIM[147]HMQLGNEGVCPK[170]SCIPCK[170]">
+            <mod_aminoacid_mass position="11" mass="170.10596"/>
+            <mod_aminoacid_mass position="24" mass="147.03549"/>
+            <mod_aminoacid_mass position="36" mass="170.10596"/>
+            <mod_aminoacid_mass position="42" mass="170.10596"/>
+            <mod_aminoacid_mass position="7" mass="160.03019"/>
+            <mod_aminoacid_mass position="10" mass="160.03019"/>
+            <mod_aminoacid_mass position="34" mass="160.03019"/>
+            <mod_aminoacid_mass position="38" mass="160.03019"/>
+            <mod_aminoacid_mass position="41" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.330452347719869"/>
+          <search_score name="expect" value="67.412278934853248"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W767, Spot_Id: 160130, Peak_List_Id: 184638, MSMS Job_Run_Id: 14047, Comment: .549.549.3" start_scan="549" end_scan="549" precursor_neutral_mass="5321.509765625" assumed_charge="3" index="34">
+      <search_result>
+        <search_hit hit_rank="1" peptide="ESGHDTTYRFEGVCAYLATIDLNSLLYKYEIDIADFIKEFCDDK" peptide_prev_aa="R" peptide_next_aa="Y" protein="BL_ORD_ID:7520" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="86" calc_neutral_pep_mass="5321.47216796875" massdiff="0.03759765625" is_rejected="0" protein_descr="sp|P32356|TREA_YEAST Neutral trehalase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NTH1 PE=1 SV=3">
+          <modification_info modified_peptide="ESGHDTTYRFEGVCAYLATIDLNSLLYKYEIDIADFIK[170]EFCDDK[170]">
+            <mod_aminoacid_mass position="38" mass="170.10596"/>
+            <mod_aminoacid_mass position="44" mass="170.10596"/>
+            <mod_aminoacid_mass position="14" mass="160.03019"/>
+            <mod_aminoacid_mass position="41" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.05167571381391"/>
+          <search_score name="expect" value="76.273353589331265"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W884, Spot_Id: 158646, Peak_List_Id: 184724, MSMS Job_Run_Id: 14047, Comment: .550.550.3" start_scan="550" end_scan="550" precursor_neutral_mass="5345.52197265625" assumed_charge="3" index="35">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AMSLQSFPNGNPLMQAPTPHPRFQPNKMVSANYSRSNSLMSGPPGQFR" peptide_prev_aa="R" peptide_next_aa="Q" protein="BL_ORD_ID:7832" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="94" calc_neutral_pep_mass="5345.537109375" massdiff="-0.01513671875" is_rejected="0" protein_descr="sp|P39523|YM11_YEAST Uncharacterized protein YMR124W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YMR124W PE=1 SV=2">
+          <modification_info modified_peptide="AM[147]SLQSFPNGNPLM[147]QAPTPHPRFQPNK[170]MVSANYSRSNSLMSGPPGQFR">
+            <mod_aminoacid_mass position="2" mass="147.03549"/>
+            <mod_aminoacid_mass position="14" mass="147.03549"/>
+            <mod_aminoacid_mass position="27" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.047415001706001"/>
+          <search_score name="expect" value="76.432982750073592"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W563, Spot_Id: 159265, Peak_List_Id: 184481, MSMS Job_Run_Id: 14047, Comment: .554.554.2" start_scan="554" end_scan="554" precursor_neutral_mass="3584.56811523438" assumed_charge="2" index="36">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AISDGEGVEEGEKGVRKVGHGTATNGDEDDGEQDK" peptide_prev_aa="K" peptide_next_aa="E" protein="BL_ORD_ID:2575" num_tot_proteins="1" num_matched_ions="5" tot_num_ions="68" calc_neutral_pep_mass="3584.60888671875" massdiff="-0.040771484375" is_rejected="0" protein_descr="sp|P43609_REVERSED|RSC8_YEAST Chromatin structure-remodeling complex protein RSC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RSC8 PE=1 SV=1-REVERSED">
+          <search_score name="pvalue" value="0.003975820921233"/>
+          <search_score name="expect" value="1.85670837021589"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1403, Spot_Id: 158730, Peak_List_Id: 185025, MSMS Job_Run_Id: 14047, Comment: .558.558.4" start_scan="558" end_scan="558" precursor_neutral_mass="7195.56298828125" assumed_charge="4" index="37">
+      <search_result>
+        <search_hit hit_rank="1" peptide="CLVTLIDAYNIELIQKVWTPLLHFPAFAQFTNYIYAHEEYTMQRKIEGQDNPIIDGLNSNK" peptide_prev_aa="K" peptide_next_aa="L" protein="BL_ORD_ID:9613" num_tot_proteins="10" num_matched_ions="7" tot_num_ions="120" calc_neutral_pep_mass="7195.625" massdiff="-0.06201171875" is_rejected="0" protein_descr="sp|P25383_REVERSED|YC21A_YEAST Transposon Ty2-C Gag polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2A-C PE=3 SV=2-REVERSED">
+          <alternative_protein protein="BL_ORD_ID:9673" protein_descr="sp|P25384_REVERSED|YC21B_YEAST Transposon Ty2-C Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2B-C PE=3 SV=2-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:9871" protein_descr="sp|Q07791_REVERSED|YD23B_YEAST Transposon Ty2-DR3 Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2B-DR3 PE=3 SV=1-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:9989" protein_descr="sp|Q12472_REVERSED|YD21B_YEAST Transposon Ty2-DR1 Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2B-DR1 PE=1 SV=3-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:7615" protein_descr="sp|Q12260_REVERSED|YB21A_YEAST Transposon Ty2-B Gag polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2A-B PE=3 SV=1-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:7617" protein_descr="sp|Q12491_REVERSED|YB21B_YEAST Transposon Ty2-B Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2B-B PE=3 SV=1-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:8321" protein_descr="sp|Q99303_REVERSED|YD23A_YEAST Transposon Ty2-DR3 Gag polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2A-DR3 PE=3 SV=1-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:8609" protein_descr="sp|P0C2J3_REVERSED|YL21B_YEAST Transposon Ty2-LR1 Gag-Pol polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2B-LR1 PE=3 SV=1-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:8777" protein_descr="sp|P0C2J4_REVERSED|YL21A_YEAST Transposon Ty2-LR1 Gag polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2A-LR1 PE=3 SV=1-REVERSED"/>
+          <alternative_protein protein="BL_ORD_ID:8923" protein_descr="sp|Q12392_REVERSED|YD21A_YEAST Transposon Ty2-DR1 Gag polyprotein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TY2A-DR1 PE=3 SV=1-REVERSED"/>
+          <modification_info modified_peptide="CLVTLIDAYNIELIQKVWTPLLHFPAFAQFTNYIYAHEEYTMQRKIEGQDNPIIDGLNSNK">
+            <mod_aminoacid_mass position="1" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.067980829060985"/>
+          <search_score name="expect" value="82.188822334730276"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1911, Spot_Id: 158517, Peak_List_Id: 185125, MSMS Job_Run_Id: 14047, Comment: .566.566.2" start_scan="566" end_scan="566" precursor_neutral_mass="3632.99194335938" assumed_charge="2" index="38">
+      <search_result>
+        <search_hit hit_rank="1" peptide="TEDNLRSPLPLQSVSLVIPLKNCILSLMKVR" peptide_prev_aa="K" peptide_next_aa="S" protein="BL_ORD_ID:261" num_tot_proteins="1" num_matched_ions="4" tot_num_ions="60" calc_neutral_pep_mass="3633" massdiff="-0.008056640625" is_rejected="0" protein_descr="sp|P32048_REVERSED|SYKM_YEAST Lysine--tRNA ligase, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MSK1 PE=1 SV=3-REVERSED">
+          <modification_info modified_peptide="TEDNLRSPLPLQSVSLVIPLK[170]NCILSLM[147]K[170]VR">
+            <mod_aminoacid_mass position="21" mass="170.10596"/>
+            <mod_aminoacid_mass position="28" mass="147.03549"/>
+            <mod_aminoacid_mass position="29" mass="170.10596"/>
+            <mod_aminoacid_mass position="23" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.101950733850605"/>
+          <search_score name="expect" value="95.731739085718232"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1069, Spot_Id: 158998, Peak_List_Id: 184853, MSMS Job_Run_Id: 14047, Comment: .586.586.3" start_scan="586" end_scan="586" precursor_neutral_mass="5587.52490234375" assumed_charge="3" index="39">
+      <search_result>
+        <search_hit hit_rank="1" peptide="PTHTDNYLLPTEKYLTYADMLEEPVEIDEDDELKETILSIQDNYWK" peptide_prev_aa="" peptide_next_aa="L" protein="BL_ORD_ID:3841" num_tot_proteins="1" num_matched_ions="7" tot_num_ions="90" calc_neutral_pep_mass="5587.6318359375" massdiff="-0.10693359375" is_rejected="0" protein_descr="sp|P40060_REVERSED|IES5_YEAST Ino eighty subunit 5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IES5 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="PTHTDNYLLPTEKYLTYADM[147]LEEPVEIDEDDELKETILSIQDNYWK[170]">
+            <mod_aminoacid_mass position="20" mass="147.03549"/>
+            <mod_aminoacid_mass position="46" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.029901282222183"/>
+          <search_score name="expect" value="25.834707839965777"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W843, Spot_Id: 158497, Peak_List_Id: 184689, MSMS Job_Run_Id: 14047, Comment: .593.593.4" start_scan="593" end_scan="593" precursor_neutral_mass="7519.6669921875" assumed_charge="4" index="40">
+      <search_result>
+        <search_hit hit_rank="1" peptide="FADIINIGTQDVSTVFKRNEVLNTTVINGIGVYVVKMEIGTPPQTVYLQLDTGSSDMIVNNADIAYCK" peptide_prev_aa="K" peptide_next_aa="S" protein="BL_ORD_ID:8866" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="134" calc_neutral_pep_mass="7519.7841796875" massdiff="-0.1171875" is_rejected="0" protein_descr="sp|P53057|YPS5_YEAST Yapsin-5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPS5 PE=5 SV=1">
+          <modification_info modified_peptide="FADIINIGTQDVSTVFKRNEVLNTTVINGIGVYVVKM[147]EIGTPPQTVYLQLDTGSSDMIVNNADIAYCK[170]">
+            <mod_aminoacid_mass position="37" mass="147.03549"/>
+            <mod_aminoacid_mass position="68" mass="170.10596"/>
+            <mod_aminoacid_mass position="67" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.07372726422923"/>
+          <search_score name="expect" value="66.575719598994965"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="FADIINIGTQDVSTVFKRNEVLNTTVINGIGVYVVKMEIGTPPQTVYLQLDTGSSDMIVNNADIAYCK" peptide_prev_aa="K" peptide_next_aa="S" protein="BL_ORD_ID:8866" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="134" calc_neutral_pep_mass="7519.7841796875" massdiff="-0.1171875" is_rejected="0" protein_descr="sp|P53057|YPS5_YEAST Yapsin-5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPS5 PE=5 SV=1">
+          <modification_info modified_peptide="FADIINIGTQDVSTVFKRNEVLNTTVINGIGVYVVKMEIGTPPQTVYLQLDTGSSDM[147]IVNNADIAYCK[170]">
+            <mod_aminoacid_mass position="57" mass="147.03549"/>
+            <mod_aminoacid_mass position="68" mass="170.10596"/>
+            <mod_aminoacid_mass position="67" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.07372726422923"/>
+          <search_score name="expect" value="66.575719598994965"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W691, Spot_Id: 158078, Peak_List_Id: 184571, MSMS Job_Run_Id: 14047, Comment: .614.614.3" start_scan="614" end_scan="614" precursor_neutral_mass="5911.77685546875" assumed_charge="3" index="41">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NTSAITTDGGIYKTNNTAWFTVDLPMRTFRNPVYLTSQTSSSSDYVFDTSLTK" peptide_prev_aa="K" peptide_next_aa="F" protein="BL_ORD_ID:3142" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="104" calc_neutral_pep_mass="5911.85205078125" massdiff="-0.0751953125" is_rejected="0" protein_descr="sp|P42835|EGT2_YEAST Protein EGT2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=EGT2 PE=2 SV=2">
+          <search_score name="pvalue" value="0.067096321619236"/>
+          <search_score name="expect" value="94.337428196645618"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W581, Spot_Id: 159751, Peak_List_Id: 184490, MSMS Job_Run_Id: 14047, Comment: .631.631.3" start_scan="631" end_scan="631" precursor_neutral_mass="6244.69580078125" assumed_charge="3" index="42">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NANWSTQDDHNNSMFLNEHVDNEINDDDADLDITEEPLVHSPPIYNANAHSNTVK" peptide_prev_aa="R" peptide_next_aa="S" protein="BL_ORD_ID:11951" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="108" calc_neutral_pep_mass="6244.7509765625" massdiff="-0.05517578125" is_rejected="0" protein_descr="sp|P39524_REVERSED|ATC3_YEAST Probable phospholipid-transporting ATPase DRS2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DRS2 PE=1 SV=2-REVERSED">
+          <modification_info modified_peptide="NANWSTQDDHNNSM[147]FLNEHVDNEINDDDADLDITEEPLVHSPPIYNANAHSNTVK">
+            <mod_aminoacid_mass position="14" mass="147.03549"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.082790266884896"/>
+          <search_score name="expect" value="22.022210991382245"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W888, Spot_Id: 158754, Peak_List_Id: 184726, MSMS Job_Run_Id: 14047, Comment: .643.643.4" start_scan="643" end_scan="643" precursor_neutral_mass="8446.7138671875" assumed_charge="4" index="43">
+      <search_result>
+        <search_hit hit_rank="1" peptide="AGSLGGIFNHKQMTSPSNSNIGGENVESTTSSNDGSNENAGHPTTSEQDQNADHPTISQADDNGHSSLTPNPAVTSTVTDKK" peptide_prev_aa="R" peptide_next_aa="G" protein="BL_ORD_ID:4446" num_tot_proteins="1" num_matched_ions="4" tot_num_ions="162" calc_neutral_pep_mass="8446.7841796875" massdiff="-0.0703125" is_rejected="0" protein_descr="sp|P40971|LYS14_YEAST Lysine biosynthesis regulatory protein LYS14 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LYS14 PE=1 SV=2">
+          <modification_info modified_peptide="AGSLGGIFNHKQM[147]TSPSNSNIGGENVESTTSSNDGSNENAGHPTTSEQDQNADHPTISQADDNGHSSLTPNPAVTSTVTDK[170]K">
+            <mod_aminoacid_mass position="13" mass="147.03549"/>
+            <mod_aminoacid_mass position="81" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.254163206426973"/>
+          <search_score name="expect" value="54.390926175372314"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="AGSLGGIFNHKQMTSPSNSNIGGENVESTTSSNDGSNENAGHPTTSEQDQNADHPTISQADDNGHSSLTPNPAVTSTVTDKK" peptide_prev_aa="R" peptide_next_aa="G" protein="BL_ORD_ID:4446" num_tot_proteins="1" num_matched_ions="4" tot_num_ions="162" calc_neutral_pep_mass="8446.7841796875" massdiff="-0.0703125" is_rejected="0" protein_descr="sp|P40971|LYS14_YEAST Lysine biosynthesis regulatory protein LYS14 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LYS14 PE=1 SV=2">
+          <modification_info modified_peptide="AGSLGGIFNHKQM[147]TSPSNSNIGGENVESTTSSNDGSNENAGHPTTSEQDQNADHPTISQADDNGHSSLTPNPAVTSTVTDKK[170]">
+            <mod_aminoacid_mass position="13" mass="147.03549"/>
+            <mod_aminoacid_mass position="82" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.254163206426973"/>
+          <search_score name="expect" value="54.390926175372314"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W661, Spot_Id: 158766, Peak_List_Id: 184552, MSMS Job_Run_Id: 14047, Comment: .649.649.3" start_scan="649" end_scan="649" precursor_neutral_mass="6376.9931640625" assumed_charge="3" index="44">
+      <search_result>
+        <search_hit hit_rank="1" peptide="EYQLIDIQALKSIPNTFDRQMETMVSTSSILNNWADEFWRENGHHEEPMVIEK" peptide_prev_aa="K" peptide_next_aa="V" protein="BL_ORD_ID:3435" num_tot_proteins="1" num_matched_ions="9" tot_num_ions="104" calc_neutral_pep_mass="6377.01611328125" massdiff="-0.02294921875" is_rejected="0" protein_descr="sp|P47102_REVERSED|GEA1_YEAST ARF guanine-nucleotide exchange factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GEA1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="EYQLIDIQALKSIPNTFDRQM[147]ETMVSTSSILNNWADEFWRENGHHEEPMVIEK[170]">
+            <mod_aminoacid_mass position="21" mass="147.03549"/>
+            <mod_aminoacid_mass position="53" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.064328643768021"/>
+          <search_score name="expect" value="75.071527277281049"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W951, Spot_Id: 160226, Peak_List_Id: 184785, MSMS Job_Run_Id: 14047, Comment: .660.660.4" start_scan="660" end_scan="660" precursor_neutral_mass="8648.1865234375" assumed_charge="4" index="45">
+      <search_result>
+        <search_hit hit_rank="1" peptide="LSNDVPIVPGNNTTLTPSHSNILTMNHQPTADNITRRSFHASSPPFNSIWNSNTNQLSPPLEEQYHLDVPVGPKVPAK" peptide_prev_aa="R" peptide_next_aa="E" protein="BL_ORD_ID:9890" num_tot_proteins="1" num_matched_ions="10" tot_num_ions="154" calc_neutral_pep_mass="8648.2880859375" massdiff="-0.1015625" is_rejected="0" protein_descr="sp|P32618|YEF3_YEAST Uncharacterized protein YEL043W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YEL043W PE=1 SV=1">
+          <modification_info modified_peptide="LSNDVPIVPGNNTTLTPSHSNILTM[147]NHQPTADNITRRSFHASSPPFNSIWNSNTNQLSPPLEEQYHLDVPVGPK[170]VPAK[170]">
+            <mod_aminoacid_mass position="25" mass="147.03549"/>
+            <mod_aminoacid_mass position="74" mass="170.10596"/>
+            <mod_aminoacid_mass position="78" mass="170.10596"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.004405935262104"/>
+          <search_score name="expect" value="2.921135078774714"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1473, Spot_Id: 160067, Peak_List_Id: 185050, MSMS Job_Run_Id: 14047, Comment: .662.662.4" start_scan="662" end_scan="662" precursor_neutral_mass="8726.833984375" assumed_charge="4" index="46">
+      <search_result>
+        <search_hit hit_rank="1" peptide="NIEEMYCGNTGTGFICGIVPESIEGSTMSDTNDSTYCHSLYTGVTDNTLAVVKIMPMGQASLQEQYLQVVDKGVTDAIR" peptide_prev_aa="K" peptide_next_aa="F" protein="BL_ORD_ID:3713" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="156" calc_neutral_pep_mass="8726.9990234375" massdiff="-0.1650390625" is_rejected="0" protein_descr="sp|P17709_REVERSED|HXKG_YEAST Glucokinase-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GLK1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="NIEEM[147]YCGNTGTGFICGIVPESIEGSTMSDTNDSTYCHSLYTGVTDNTLAVVKIM[147]PM[147]GQASLQEQYLQVVDKGVTDAIR">
+            <mod_aminoacid_mass position="5" mass="147.03549"/>
+            <mod_aminoacid_mass position="55" mass="147.03549"/>
+            <mod_aminoacid_mass position="57" mass="147.03549"/>
+            <mod_aminoacid_mass position="7" mass="160.03019"/>
+            <mod_aminoacid_mass position="16" mass="160.03019"/>
+            <mod_aminoacid_mass position="37" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.362222259082386"/>
+          <search_score name="expect" value="59.404450489511319"/>
+        </search_hit>
+        <search_hit hit_rank="2" peptide="NIEEMYCGNTGTGFICGIVPESIEGSTMSDTNDSTYCHSLYTGVTDNTLAVVKIMPMGQASLQEQYLQVVDKGVTDAIR" peptide_prev_aa="K" peptide_next_aa="F" protein="BL_ORD_ID:3713" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="156" calc_neutral_pep_mass="8726.9990234375" massdiff="-0.1650390625" is_rejected="0" protein_descr="sp|P17709_REVERSED|HXKG_YEAST Glucokinase-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GLK1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="NIEEM[147]YCGNTGTGFICGIVPESIEGSTM[147]SDTNDSTYCHSLYTGVTDNTLAVVKIMPM[147]GQASLQEQYLQVVDKGVTDAIR">
+            <mod_aminoacid_mass position="5" mass="147.03549"/>
+            <mod_aminoacid_mass position="28" mass="147.03549"/>
+            <mod_aminoacid_mass position="57" mass="147.03549"/>
+            <mod_aminoacid_mass position="7" mass="160.03019"/>
+            <mod_aminoacid_mass position="16" mass="160.03019"/>
+            <mod_aminoacid_mass position="37" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.362222259082386"/>
+          <search_score name="expect" value="59.404450489511319"/>
+        </search_hit>
+        <search_hit hit_rank="3" peptide="NIEEMYCGNTGTGFICGIVPESIEGSTMSDTNDSTYCHSLYTGVTDNTLAVVKIMPMGQASLQEQYLQVVDKGVTDAIR" peptide_prev_aa="K" peptide_next_aa="F" protein="BL_ORD_ID:3713" num_tot_proteins="1" num_matched_ions="6" tot_num_ions="156" calc_neutral_pep_mass="8726.9990234375" massdiff="-0.1650390625" is_rejected="0" protein_descr="sp|P17709_REVERSED|HXKG_YEAST Glucokinase-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GLK1 PE=1 SV=1-REVERSED">
+          <modification_info modified_peptide="NIEEM[147]YCGNTGTGFICGIVPESIEGSTM[147]SDTNDSTYCHSLYTGVTDNTLAVVKIM[147]PMGQASLQEQYLQVVDKGVTDAIR">
+            <mod_aminoacid_mass position="5" mass="147.03549"/>
+            <mod_aminoacid_mass position="28" mass="147.03549"/>
+            <mod_aminoacid_mass position="55" mass="147.03549"/>
+            <mod_aminoacid_mass position="7" mass="160.03019"/>
+            <mod_aminoacid_mass position="16" mass="160.03019"/>
+            <mod_aminoacid_mass position="37" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.362222259082386"/>
+          <search_score name="expect" value="59.404450489511319"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+    <spectrum_query spectrum="Label: W1830, Spot_Id: 159718, Peak_List_Id: 185118, MSMS Job_Run_Id: 14047, Comment: .688.688.3" start_scan="688" end_scan="688" precursor_neutral_mass="7233.68896484375" assumed_charge="3" index="47">
+      <search_result>
+        <search_hit hit_rank="1" peptide="YLTHGTSVLSSSLYSVAFFLFFFPNFLFFCSCPNHKWVSLPFIGMDILEALCFYREGKIR" peptide_prev_aa="R" peptide_next_aa="N" protein="BL_ORD_ID:8054" num_tot_proteins="1" num_matched_ions="8" tot_num_ions="118" calc_neutral_pep_mass="7233.5478515625" massdiff="0.14111328125" is_rejected="0" protein_descr="sp|Q3E751|YP119_YEAST Uncharacterized protein YPL119C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPL119C-A PE=1 SV=1">
+          <modification_info modified_peptide="YLTHGTSVLSSSLYSVAFFLFFFPNFLFFCSCPNHK[170]WVSLPFIGM[147]DILEALCFYREGKIR">
+            <mod_aminoacid_mass position="36" mass="170.10596"/>
+            <mod_aminoacid_mass position="45" mass="147.03549"/>
+            <mod_aminoacid_mass position="30" mass="160.03019"/>
+            <mod_aminoacid_mass position="32" mass="160.03019"/>
+            <mod_aminoacid_mass position="52" mass="160.03019"/>
+          </modification_info>
+          <search_score name="pvalue" value="0.08230515297998"/>
+          <search_score name="expect" value="81.729016909119792"/>
+        </search_hit>
+      </search_result>
+    </spectrum_query>
+  </msms_run_summary>
+</msms_pipeline_analysis>
