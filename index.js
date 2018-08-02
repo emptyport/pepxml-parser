@@ -10,10 +10,12 @@ module.exports.parse = function(fileText, decoyTag=undefined) {
   var xmlObj = JSON.parse(xmlDoc);
   var idObjList = xmlObj.msms_pipeline_analysis.msms_run_summary.spectrum_query;
 
+  console.log(JSON.stringify(xmlObj));
+
   psmList = idObjList
     .map(function(idObj) {
-      console.log(idObj._attributes);
-      console.log(idObj.search_result);
+      //console.log(idObj._attributes);
+      //console.log(idObj.search_result);
       return '';
       //return extractInfo(idObj, filename, decoyTag);
     }
@@ -22,28 +24,29 @@ module.exports.parse = function(fileText, decoyTag=undefined) {
   return psmList;
 };
 
-extractInfo = () => {
-  
+extractInfo = (idObj, filename, decoyTag) => {
+  let attributes = idObj._attributes;
+  let search_result = idObj.search_result.search_hit._attributes;
 
   let psm = {
-    'sequence': '',
-    'sequence_pre': '',
-    'sequence_post': '',
+    'sequence': search_result.peptide,
+    'sequence_pre': search_result.peptide_prev_aa,
+    'sequence_post': search_result.peptide_next_aa,
     'missed_cleavages': 0,
-    'protein': '',
-    'charge': 0,
+    'protein': search_result.protein,
+    'charge': parseInt(attributes.assumed_charge),
     'retention_time': 0,
-    'precursor_mass': 0,
-    'mass_err': 0,
-    'theoretical_mass': 0,
+    'precursor_mass': parseFloat(attributes.precursor_neutral_mass),
+    'mass_err': parseFloat(search_result.massdiff),
+    'theoretical_mass': parseFloat(search_result.calc_neutral_pep_mass),
     'modifications': [],
     'filename': '',
-    'scan_title': '',
-    'scan_id': '',
+    'scan_title': attributes.spectrum,
+    'scan_id': attributes.start_scan,
     'score': 0,
     'expect': 0,
     'is_decoy': false,
-    'rank': 1,
+    'rank': parseInt(search_result.hit_rank),
     'search_engine': ''
   };
 
